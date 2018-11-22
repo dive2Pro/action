@@ -1,0 +1,13 @@
+<h1>Tweet results for <%= search %></h1>
+<% if (results.length) { %>
+<ul>
+    <% for (var item of results) { %>
+        <li>
+            <img src="<%=item.avatar_url %>" alt="<%= item.login %>">
+            <%= item.login %> - <em><%= item.url %></em>
+        </li>
+    <% } %>
+</ul>
+<%  } else { %>
+    <p>No Results</p>
+<% }%>
