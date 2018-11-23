@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="/chat.css">
 </head>
 <body>
+    <div id="loading" >
+        <h1>...</h1>
+    </div>
+
     <div id="chat">
         <ul id="messages">
+            <li id="typing" class="typing">
 
+            </li>
         </ul>
-        <form action="GET" id="form">
+        <form id="form">
             <input type="text" id="input">
             <button>Send</button>
         </form>
         <div id="playing"></div>
 
-        <form action="GET" id="dj">
+        <form id="dj">
             <h3>Search Songs</h3>
             <input type="text" id="s" />
             <ul id="results"></ul>

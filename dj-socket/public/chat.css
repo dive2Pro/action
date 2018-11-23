@@ -1,3 +1,38 @@
 #chat{
     display: none;
+    visibility: hidden;
+}
+
+#messages > li {
+    color: grey;
+}
+
+#messages {
+    position: relative;
+}
+#messages > li.confirmed {
+    color: #000;
+}
+
+li.broadcast{
+    background: yellow;
+    font-weight: bold;
+}
+
+li.typing {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-duration: 1000ms;
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
