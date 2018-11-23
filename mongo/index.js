@@ -6,14 +6,11 @@ const mongodb = require('mongodb')
 const MongoClient = require('mongodb').MongoClient
 const dbName = 'demo-1'
 
-let clientInstance
-let db
 MongoClient.connect('mongodb://localhost:27017/', (err, client) => {
     if (err) {
         throw err
     }
-    clientInstance = client
-    db = client.db(dbName)
+    const db = client.db(dbName)
     console.log('connected to mongodb!')
 
     const users = db.collection('documents');

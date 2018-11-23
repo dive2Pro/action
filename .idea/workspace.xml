@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a4b377d-116c-44b2-abe9-372d9f9c5323" name="Default Changelist" comment="http">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/views/layout.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/views/login.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mongo/views/signup.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/_demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/views/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/views/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/views/login.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoose/views/signup.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/yarn-error.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +21,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="action" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mongo/index.js">
+        <entry file="file://$PROJECT_DIR$/mongoose/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -37,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Pug File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -83,6 +87,7 @@
         <option value="$PROJECT_DIR$/mongo/views/signup.pug" />
         <option value="$PROJECT_DIR$/mongo/views/login.pug" />
         <option value="$PROJECT_DIR$/mongo/index.js" />
+        <option value="$PROJECT_DIR$/mongoose/index.js" />
       </list>
     </option>
   </component>
@@ -120,8 +125,7 @@
             <path>
               <item name="action" type="b2602c69:ProjectViewProjectNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoose" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,12 +146,13 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Learn\node\action\connect\raw\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Learn\node\action\mongoose" />
       <recent name="F:\Learn\node\action\connect" />
       <recent name="F:\Learn\node\action\http" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Learn\node\action\connect\raw\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,23 +191,22 @@
       <updated>1542794300403</updated>
       <workItem from="1542794301526" duration="28435000" />
       <workItem from="1542937062594" duration="9046000" />
-      <workItem from="1542951349604" duration="8725000" />
+      <workItem from="1542951349604" duration="11595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46206000" />
+    <option name="totallyTimeSpent" value="49076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947533" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50052464" side_tool="true" visible="true" weight="0.25751072" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4260231" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -213,7 +217,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.18991417" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.3052575" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,24 +268,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="http" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module.a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <marker date="1542797691532" expanded="true" signature="393:492" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logi.png" />
-    <entry file="file://$PROJECT_DIR$/buffer.img.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -561,8 +547,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mongo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/_demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
