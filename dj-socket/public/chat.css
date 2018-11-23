@@ -3,6 +3,10 @@
     visibility: hidden;
 }
 
+#dj {
+  display: none;
+}
+
 #messages > li {
     color: grey;
 }
