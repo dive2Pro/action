@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a4b377d-116c-44b2-abe9-372d9f9c5323" name="Default Changelist" comment="http">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/views/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/views/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/views/login.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/views/signup.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/public/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/public/chat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/public/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/public/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dj-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj-socket/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/dj-socket/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dj-socket/server.js">
+        <entry file="file://$PROJECT_DIR$/mongo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -38,6 +39,7 @@
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -75,6 +77,12 @@
         <option value="$USER_HOME$/.ideavimrc" />
         <option value="$PROJECT_DIR$/dj-socket/public/chat.js" />
         <option value="$PROJECT_DIR$/dj-socket/server.js" />
+        <option value="$PROJECT_DIR$/mongo/views/index.html" />
+        <option value="$PROJECT_DIR$/mongo/views/layout.pug" />
+        <option value="$PROJECT_DIR$/mongo/views/index.pug" />
+        <option value="$PROJECT_DIR$/mongo/views/signup.pug" />
+        <option value="$PROJECT_DIR$/mongo/views/login.pug" />
+        <option value="$PROJECT_DIR$/mongo/index.js" />
       </list>
     </option>
   </component>
@@ -107,13 +115,13 @@
             <path>
               <item name="action" type="b2602c69:ProjectViewProjectNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="dj-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="action" type="b2602c69:ProjectViewProjectNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="dj-socket" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -125,11 +133,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dj-socket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mongo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="G:\nodejs\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -153,10 +162,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.mongod">
     <configuration name="dj-socket" type="NodeJSConfigurationType" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/dj-socket">
       <method v="2" />
     </configuration>
+    <configuration name="mongod" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/mongo">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.dj-socket" />
+      <item itemvalue="Node.js.mongod" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,24 +186,24 @@
       <updated>1542794300403</updated>
       <workItem from="1542794301526" duration="28435000" />
       <workItem from="1542937062594" duration="9046000" />
-      <workItem from="1542951349604" duration="591000" />
+      <workItem from="1542951349604" duration="8725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38072000" />
+    <option name="totallyTimeSpent" value="46206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29485834" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4260231" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -197,7 +213,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" weight="0.18991417" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.18991417" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,8 +491,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dj-socket/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/node_modules/cookie-parser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/node_modules/body-parser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/node_modules/mongodb/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/node_modules/mongodb/lib/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/views/signup.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/views/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
         </state>
       </provider>
     </entry>

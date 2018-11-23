@@ -52,7 +52,7 @@ sio.on('connection', socket => {
         request('http://tinysong.com/s' + encodeURIComponent(q))
             .query({key: apiKey, format: 'json'})
             .end((err, res) => {
-                
+
             })
     })
 
